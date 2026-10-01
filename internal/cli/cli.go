@@ -95,7 +95,7 @@ func Run(args []string, env Env) int {
 		return ExitUsage
 	}
 	if *showVersion {
-		fmt.Fprintln(env.Stdout, "claude-theme", Version)
+		fmt.Fprintln(env.Stdout, "claude-theme", currentVersion())
 		return ExitOK
 	}
 	profile, explicit, ok := render.ParseProfile(*colorFlag)
@@ -118,7 +118,7 @@ func Run(args []string, env Env) int {
 		fmt.Fprint(env.Stdout, usageText)
 		return ExitOK
 	case "version":
-		fmt.Fprintln(env.Stdout, "claude-theme", Version)
+		fmt.Fprintln(env.Stdout, "claude-theme", currentVersion())
 		return ExitOK
 	}
 	if err := r.open(); err != nil {
