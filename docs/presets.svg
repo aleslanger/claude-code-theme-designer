@@ -1,0 +1,547 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="1794" viewBox="0 0 1140 1794" font-family="'JetBrains Mono','DejaVu Sans Mono',Menlo,Consolas,monospace" font-size="14">
+<rect x="16.0" y="16.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="28.0" y="42.0" fill="#d4d4d4" font-weight="bold">Prompt Contrast</text>
+<text x="364.0" y="42.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">prompt-contrast</text>
+<rect x="28.0" y="50.0" width="16.8" height="18.0" fill="#332b4f"/>
+<text x="28.0" y="63.5" fill="#505050" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="44.8" y="50.0" width="151.2" height="18.0" fill="#332b4f"/>
+<text x="44.8" y="63.5" fill="#ffffff" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="196.0" y="50.0" width="168.0" height="18.0" fill="#332b4f"/>
+<text x="28.0" y="81.5" fill="#c4a7ff" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="28.0" y="86.0" width="210.0" height="18.0" fill="#332b4f"/>
+<text x="28.0" y="99.5" fill="#ffffff" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="238.0" y="86.0" width="126.0" height="18.0" fill="#332b4f"/>
+<text x="28.0" y="117.5" fill="#d77757" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="28.0" y="135.5" fill="#ffffff" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="28.0" y="153.5" fill="#4eba65" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="44.8" y="153.5" fill="#ffffff" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="78.4" y="153.5" fill="#ffffff" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="28.0" y="171.5" fill="#999999" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="70.0" y="171.5" fill="#ff6b80" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="28.0" y="189.5" fill="#ffc107" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="28.0" y="194.0" width="134.4" height="18.0" fill="#403660"/>
+<text x="28.0" y="207.5" fill="#ffffff" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="162.4" y="194.0" width="201.6" height="18.0" fill="#403660"/>
+<rect x="390.0" y="16.0" width="360.0" height="208.0" rx="8" fill="#ffffff" stroke="#8884"/>
+<text x="402.0" y="42.0" fill="#1f2328" font-weight="bold">Prompt Contrast Light</text>
+<text x="738.0" y="42.0" fill="#1f2328" font-size="11" text-anchor="end" opacity="0.7">prompt-contrast-light</text>
+<rect x="402.0" y="50.0" width="16.8" height="18.0" fill="#ece6fb"/>
+<text x="402.0" y="63.5" fill="#afafaf" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="418.8" y="50.0" width="151.2" height="18.0" fill="#ece6fb"/>
+<text x="418.8" y="63.5" fill="#000000" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="570.0" y="50.0" width="168.0" height="18.0" fill="#ece6fb"/>
+<text x="402.0" y="81.5" fill="#5b3cc4" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="402.0" y="86.0" width="210.0" height="18.0" fill="#ece6fb"/>
+<text x="402.0" y="99.5" fill="#000000" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="612.0" y="86.0" width="126.0" height="18.0" fill="#ece6fb"/>
+<text x="402.0" y="117.5" fill="#d77757" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="402.0" y="135.5" fill="#000000" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="402.0" y="153.5" fill="#2c7a39" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="418.8" y="153.5" fill="#000000" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="452.4" y="153.5" fill="#000000" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="402.0" y="171.5" fill="#666666" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="444.0" y="171.5" fill="#ab2b3f" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="402.0" y="189.5" fill="#966c1e" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="402.0" y="194.0" width="134.4" height="18.0" fill="#f4f0fd"/>
+<text x="402.0" y="207.5" fill="#000000" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="536.4" y="194.0" width="201.6" height="18.0" fill="#f4f0fd"/>
+<rect x="764.0" y="16.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="776.0" y="42.0" fill="#d4d4d4" font-weight="bold">Ocean</text>
+<text x="1112.0" y="42.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">ocean</text>
+<rect x="776.0" y="50.0" width="16.8" height="18.0" fill="#0f3a4a"/>
+<text x="776.0" y="63.5" fill="#505050" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="792.8" y="50.0" width="151.2" height="18.0" fill="#0f3a4a"/>
+<text x="792.8" y="63.5" fill="#ffffff" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="944.0" y="50.0" width="168.0" height="18.0" fill="#0f3a4a"/>
+<text x="776.0" y="81.5" fill="#5fd7ff" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="776.0" y="86.0" width="210.0" height="18.0" fill="#0f3a4a"/>
+<text x="776.0" y="99.5" fill="#ffffff" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="986.0" y="86.0" width="126.0" height="18.0" fill="#0f3a4a"/>
+<text x="776.0" y="117.5" fill="#ffaf5f" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="776.0" y="135.5" fill="#ffffff" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="776.0" y="153.5" fill="#4eba65" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="792.8" y="153.5" fill="#ffffff" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="826.4" y="153.5" fill="#ffffff" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="776.0" y="171.5" fill="#999999" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="818.0" y="171.5" fill="#ff6b80" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="776.0" y="189.5" fill="#ffc107" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="776.0" y="194.0" width="134.4" height="18.0" fill="#164b5e"/>
+<text x="776.0" y="207.5" fill="#ffffff" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="910.4" y="194.0" width="201.6" height="18.0" fill="#164b5e"/>
+<rect x="16.0" y="238.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="28.0" y="264.0" fill="#d4d4d4" font-weight="bold">Sunset</text>
+<text x="364.0" y="264.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">sunset</text>
+<rect x="28.0" y="272.0" width="16.8" height="18.0" fill="#4a2a3a"/>
+<text x="28.0" y="285.5" fill="#505050" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="44.8" y="272.0" width="151.2" height="18.0" fill="#4a2a3a"/>
+<text x="44.8" y="285.5" fill="#ffffff" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="196.0" y="272.0" width="168.0" height="18.0" fill="#4a2a3a"/>
+<text x="28.0" y="303.5" fill="#ffb86b" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="28.0" y="308.0" width="210.0" height="18.0" fill="#4a2a3a"/>
+<text x="28.0" y="321.5" fill="#ffffff" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="238.0" y="308.0" width="126.0" height="18.0" fill="#4a2a3a"/>
+<text x="28.0" y="339.5" fill="#ff8fa3" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="28.0" y="357.5" fill="#ffffff" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="28.0" y="375.5" fill="#4eba65" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="44.8" y="375.5" fill="#ffffff" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="78.4" y="375.5" fill="#ffffff" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="28.0" y="393.5" fill="#999999" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="70.0" y="393.5" fill="#ff6b80" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="28.0" y="411.5" fill="#ffc107" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="28.0" y="416.0" width="134.4" height="18.0" fill="#5a3346"/>
+<text x="28.0" y="429.5" fill="#ffffff" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="162.4" y="416.0" width="201.6" height="18.0" fill="#5a3346"/>
+<rect x="390.0" y="238.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="402.0" y="264.0" fill="#d4d4d4" font-weight="bold">Forest</text>
+<text x="738.0" y="264.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">forest</text>
+<rect x="402.0" y="272.0" width="16.8" height="18.0" fill="#263826"/>
+<text x="402.0" y="285.5" fill="#505050" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="418.8" y="272.0" width="151.2" height="18.0" fill="#263826"/>
+<text x="418.8" y="285.5" fill="#ffffff" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="570.0" y="272.0" width="168.0" height="18.0" fill="#263826"/>
+<text x="402.0" y="303.5" fill="#b5e48c" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="402.0" y="308.0" width="210.0" height="18.0" fill="#263826"/>
+<text x="402.0" y="321.5" fill="#ffffff" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="612.0" y="308.0" width="126.0" height="18.0" fill="#263826"/>
+<text x="402.0" y="339.5" fill="#e9c46a" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="402.0" y="357.5" fill="#ffffff" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="402.0" y="375.5" fill="#4eba65" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="418.8" y="375.5" fill="#ffffff" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="452.4" y="375.5" fill="#ffffff" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="402.0" y="393.5" fill="#999999" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="444.0" y="393.5" fill="#ff6b80" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="402.0" y="411.5" fill="#ffc107" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="402.0" y="416.0" width="134.4" height="18.0" fill="#304630"/>
+<text x="402.0" y="429.5" fill="#ffffff" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="536.4" y="416.0" width="201.6" height="18.0" fill="#304630"/>
+<rect x="764.0" y="238.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="776.0" y="264.0" fill="#d4d4d4" font-weight="bold">Minimal Dark</text>
+<text x="1112.0" y="264.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">minimal-dark</text>
+<rect x="776.0" y="272.0" width="16.8" height="18.0" fill="#2a2a2a"/>
+<text x="776.0" y="285.5" fill="#505050" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="792.8" y="272.0" width="151.2" height="18.0" fill="#2a2a2a"/>
+<text x="792.8" y="285.5" fill="#ffffff" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="944.0" y="272.0" width="168.0" height="18.0" fill="#2a2a2a"/>
+<text x="776.0" y="303.5" fill="#9ecbff" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="776.0" y="308.0" width="210.0" height="18.0" fill="#2a2a2a"/>
+<text x="776.0" y="321.5" fill="#ffffff" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="986.0" y="308.0" width="126.0" height="18.0" fill="#2a2a2a"/>
+<text x="776.0" y="339.5" fill="#d77757" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="776.0" y="357.5" fill="#ffffff" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="776.0" y="375.5" fill="#4eba65" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="792.8" y="375.5" fill="#ffffff" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="826.4" y="375.5" fill="#ffffff" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="776.0" y="393.5" fill="#999999" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="818.0" y="393.5" fill="#ff6b80" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="776.0" y="411.5" fill="#ffc107" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="776.0" y="416.0" width="134.4" height="18.0" fill="#353535"/>
+<text x="776.0" y="429.5" fill="#ffffff" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="910.4" y="416.0" width="201.6" height="18.0" fill="#353535"/>
+<rect x="16.0" y="460.0" width="360.0" height="208.0" rx="8" fill="#ffffff" stroke="#8884"/>
+<text x="28.0" y="486.0" fill="#1f2328" font-weight="bold">Minimal Light</text>
+<text x="364.0" y="486.0" fill="#1f2328" font-size="11" text-anchor="end" opacity="0.7">minimal-light</text>
+<rect x="28.0" y="494.0" width="16.8" height="18.0" fill="#e3ebf7"/>
+<text x="28.0" y="507.5" fill="#afafaf" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="44.8" y="494.0" width="151.2" height="18.0" fill="#e3ebf7"/>
+<text x="44.8" y="507.5" fill="#000000" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="196.0" y="494.0" width="168.0" height="18.0" fill="#e3ebf7"/>
+<text x="28.0" y="525.5" fill="#1f4fbf" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="28.0" y="530.0" width="210.0" height="18.0" fill="#e3ebf7"/>
+<text x="28.0" y="543.5" fill="#000000" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="238.0" y="530.0" width="126.0" height="18.0" fill="#e3ebf7"/>
+<text x="28.0" y="561.5" fill="#d77757" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="28.0" y="579.5" fill="#000000" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="28.0" y="597.5" fill="#2c7a39" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="44.8" y="597.5" fill="#000000" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="78.4" y="597.5" fill="#000000" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="28.0" y="615.5" fill="#666666" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="70.0" y="615.5" fill="#ab2b3f" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="28.0" y="633.5" fill="#966c1e" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="28.0" y="638.0" width="134.4" height="18.0" fill="#eef3fa"/>
+<text x="28.0" y="651.5" fill="#000000" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="162.4" y="638.0" width="201.6" height="18.0" fill="#eef3fa"/>
+<rect x="390.0" y="460.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="402.0" y="486.0" fill="#d4d4d4" font-weight="bold">Nord-like</text>
+<text x="738.0" y="486.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">nord-like</text>
+<rect x="402.0" y="494.0" width="16.8" height="18.0" fill="#3b4252"/>
+<text x="402.0" y="507.5" fill="#505050" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="418.8" y="494.0" width="151.2" height="18.0" fill="#3b4252"/>
+<text x="418.8" y="507.5" fill="#eceff4" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="570.0" y="494.0" width="168.0" height="18.0" fill="#3b4252"/>
+<text x="402.0" y="525.5" fill="#88c0d0" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="402.0" y="530.0" width="210.0" height="18.0" fill="#3b4252"/>
+<text x="402.0" y="543.5" fill="#eceff4" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="612.0" y="530.0" width="126.0" height="18.0" fill="#3b4252"/>
+<text x="402.0" y="561.5" fill="#ebcb8b" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="402.0" y="579.5" fill="#eceff4" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="402.0" y="597.5" fill="#a3be8c" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="418.8" y="597.5" fill="#eceff4" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="452.4" y="597.5" fill="#eceff4" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="402.0" y="615.5" fill="#999999" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="444.0" y="615.5" fill="#d57780" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="402.0" y="633.5" fill="#ebcb8b" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="402.0" y="638.0" width="134.4" height="18.0" fill="#434c5e"/>
+<text x="402.0" y="651.5" fill="#eceff4" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="536.4" y="638.0" width="201.6" height="18.0" fill="#434c5e"/>
+<rect x="764.0" y="460.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="776.0" y="486.0" fill="#d4d4d4" font-weight="bold">Dracula-like</text>
+<text x="1112.0" y="486.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">dracula-like</text>
+<rect x="776.0" y="494.0" width="16.8" height="18.0" fill="#44475a"/>
+<text x="776.0" y="507.5" fill="#505050" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="792.8" y="494.0" width="151.2" height="18.0" fill="#44475a"/>
+<text x="792.8" y="507.5" fill="#f8f8f2" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="944.0" y="494.0" width="168.0" height="18.0" fill="#44475a"/>
+<text x="776.0" y="525.5" fill="#d4b5fc" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="776.0" y="530.0" width="210.0" height="18.0" fill="#44475a"/>
+<text x="776.0" y="543.5" fill="#f8f8f2" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="986.0" y="530.0" width="126.0" height="18.0" fill="#44475a"/>
+<text x="776.0" y="561.5" fill="#ff79c6" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="776.0" y="579.5" fill="#f8f8f2" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="776.0" y="597.5" fill="#50fa7b" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="792.8" y="597.5" fill="#f8f8f2" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="826.4" y="597.5" fill="#f8f8f2" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="776.0" y="615.5" fill="#999999" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="818.0" y="615.5" fill="#ff5555" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="776.0" y="633.5" fill="#f1fa8c" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="776.0" y="638.0" width="134.4" height="18.0" fill="#4f5269"/>
+<text x="776.0" y="651.5" fill="#f8f8f2" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="910.4" y="638.0" width="201.6" height="18.0" fill="#4f5269"/>
+<rect x="16.0" y="682.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="28.0" y="708.0" fill="#d4d4d4" font-weight="bold">Gruvbox-like</text>
+<text x="364.0" y="708.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">gruvbox-like</text>
+<rect x="28.0" y="716.0" width="16.8" height="18.0" fill="#3c3836"/>
+<text x="28.0" y="729.5" fill="#505050" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="44.8" y="716.0" width="151.2" height="18.0" fill="#3c3836"/>
+<text x="44.8" y="729.5" fill="#ebdbb2" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="196.0" y="716.0" width="168.0" height="18.0" fill="#3c3836"/>
+<text x="28.0" y="747.5" fill="#fabd2f" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="28.0" y="752.0" width="210.0" height="18.0" fill="#3c3836"/>
+<text x="28.0" y="765.5" fill="#ebdbb2" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="238.0" y="752.0" width="126.0" height="18.0" fill="#3c3836"/>
+<text x="28.0" y="783.5" fill="#83a598" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="28.0" y="801.5" fill="#ebdbb2" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="28.0" y="819.5" fill="#b8bb26" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="44.8" y="819.5" fill="#ebdbb2" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="78.4" y="819.5" fill="#ebdbb2" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="28.0" y="837.5" fill="#999999" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="70.0" y="837.5" fill="#fb4934" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="28.0" y="855.5" fill="#fabd2f" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="28.0" y="860.0" width="134.4" height="18.0" fill="#504945"/>
+<text x="28.0" y="873.5" fill="#ebdbb2" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="162.4" y="860.0" width="201.6" height="18.0" fill="#504945"/>
+<rect x="390.0" y="682.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="402.0" y="708.0" fill="#d4d4d4" font-weight="bold">Solarized-like</text>
+<text x="738.0" y="708.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">solarized-like</text>
+<rect x="402.0" y="716.0" width="16.8" height="18.0" fill="#073642"/>
+<text x="402.0" y="729.5" fill="#505050" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="418.8" y="716.0" width="151.2" height="18.0" fill="#073642"/>
+<text x="418.8" y="729.5" fill="#eee8d5" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="570.0" y="716.0" width="168.0" height="18.0" fill="#073642"/>
+<text x="402.0" y="747.5" fill="#3fbfb3" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="402.0" y="752.0" width="210.0" height="18.0" fill="#073642"/>
+<text x="402.0" y="765.5" fill="#eee8d5" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="612.0" y="752.0" width="126.0" height="18.0" fill="#073642"/>
+<text x="402.0" y="783.5" fill="#6c9ee0" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="402.0" y="801.5" fill="#eee8d5" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="402.0" y="819.5" fill="#a5b82c" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="418.8" y="819.5" fill="#eee8d5" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="452.4" y="819.5" fill="#eee8d5" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="402.0" y="837.5" fill="#999999" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="444.0" y="837.5" fill="#e6524f" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="402.0" y="855.5" fill="#c9a227" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="402.0" y="860.0" width="134.4" height="18.0" fill="#0b4552"/>
+<text x="402.0" y="873.5" fill="#eee8d5" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="536.4" y="860.0" width="201.6" height="18.0" fill="#0b4552"/>
+<rect x="764.0" y="682.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="776.0" y="708.0" fill="#d4d4d4" font-weight="bold">Tokyo Night-like</text>
+<text x="1112.0" y="708.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">tokyo-night-like</text>
+<rect x="776.0" y="716.0" width="16.8" height="18.0" fill="#2f3549"/>
+<text x="776.0" y="729.5" fill="#505050" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="792.8" y="716.0" width="151.2" height="18.0" fill="#2f3549"/>
+<text x="792.8" y="729.5" fill="#c0caf5" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="944.0" y="716.0" width="168.0" height="18.0" fill="#2f3549"/>
+<text x="776.0" y="747.5" fill="#7aa2f7" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="776.0" y="752.0" width="210.0" height="18.0" fill="#2f3549"/>
+<text x="776.0" y="765.5" fill="#c0caf5" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="986.0" y="752.0" width="126.0" height="18.0" fill="#2f3549"/>
+<text x="776.0" y="783.5" fill="#bb9af7" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="776.0" y="801.5" fill="#c0caf5" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="776.0" y="819.5" fill="#9ece6a" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="792.8" y="819.5" fill="#c0caf5" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="826.4" y="819.5" fill="#c0caf5" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="776.0" y="837.5" fill="#999999" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="818.0" y="837.5" fill="#f7768e" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="776.0" y="855.5" fill="#e0af68" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="776.0" y="860.0" width="134.4" height="18.0" fill="#3b4261"/>
+<text x="776.0" y="873.5" fill="#c0caf5" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="910.4" y="860.0" width="201.6" height="18.0" fill="#3b4261"/>
+<rect x="16.0" y="904.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="28.0" y="930.0" fill="#d4d4d4" font-weight="bold">Catppuccin Mocha-like</text>
+<text x="364.0" y="930.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">catppuccin-mocha-like</text>
+<rect x="28.0" y="938.0" width="16.8" height="18.0" fill="#313244"/>
+<text x="28.0" y="951.5" fill="#505050" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="44.8" y="938.0" width="151.2" height="18.0" fill="#313244"/>
+<text x="44.8" y="951.5" fill="#cdd6f4" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="196.0" y="938.0" width="168.0" height="18.0" fill="#313244"/>
+<text x="28.0" y="969.5" fill="#cba6f7" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="28.0" y="974.0" width="210.0" height="18.0" fill="#313244"/>
+<text x="28.0" y="987.5" fill="#cdd6f4" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="238.0" y="974.0" width="126.0" height="18.0" fill="#313244"/>
+<text x="28.0" y="1005.5" fill="#fab387" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="28.0" y="1023.5" fill="#cdd6f4" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="28.0" y="1041.5" fill="#a6e3a1" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="44.8" y="1041.5" fill="#cdd6f4" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="78.4" y="1041.5" fill="#cdd6f4" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="28.0" y="1059.5" fill="#999999" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="70.0" y="1059.5" fill="#f38ba8" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="28.0" y="1077.5" fill="#f9e2af" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="28.0" y="1082.0" width="134.4" height="18.0" fill="#45475a"/>
+<text x="28.0" y="1095.5" fill="#cdd6f4" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="162.4" y="1082.0" width="201.6" height="18.0" fill="#45475a"/>
+<rect x="390.0" y="904.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="402.0" y="930.0" fill="#d4d4d4" font-weight="bold">One Dark-like</text>
+<text x="738.0" y="930.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">one-dark-like</text>
+<rect x="402.0" y="938.0" width="16.8" height="18.0" fill="#2c313c"/>
+<text x="402.0" y="951.5" fill="#505050" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="418.8" y="938.0" width="151.2" height="18.0" fill="#2c313c"/>
+<text x="418.8" y="951.5" fill="#c8ccd4" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="570.0" y="938.0" width="168.0" height="18.0" fill="#2c313c"/>
+<text x="402.0" y="969.5" fill="#61afef" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="402.0" y="974.0" width="210.0" height="18.0" fill="#2c313c"/>
+<text x="402.0" y="987.5" fill="#c8ccd4" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="612.0" y="974.0" width="126.0" height="18.0" fill="#2c313c"/>
+<text x="402.0" y="1005.5" fill="#c678dd" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="402.0" y="1023.5" fill="#c8ccd4" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="402.0" y="1041.5" fill="#98c379" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="418.8" y="1041.5" fill="#c8ccd4" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="452.4" y="1041.5" fill="#c8ccd4" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="402.0" y="1059.5" fill="#999999" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="444.0" y="1059.5" fill="#e06c75" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="402.0" y="1077.5" fill="#e5c07b" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="402.0" y="1082.0" width="134.4" height="18.0" fill="#3a404b"/>
+<text x="402.0" y="1095.5" fill="#c8ccd4" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="536.4" y="1082.0" width="201.6" height="18.0" fill="#3a404b"/>
+<rect x="764.0" y="904.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="776.0" y="930.0" fill="#d4d4d4" font-weight="bold">Monokai-like</text>
+<text x="1112.0" y="930.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">monokai-like</text>
+<rect x="776.0" y="938.0" width="16.8" height="18.0" fill="#3e3d32"/>
+<text x="776.0" y="951.5" fill="#505050" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="792.8" y="938.0" width="151.2" height="18.0" fill="#3e3d32"/>
+<text x="792.8" y="951.5" fill="#f8f8f2" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="944.0" y="938.0" width="168.0" height="18.0" fill="#3e3d32"/>
+<text x="776.0" y="969.5" fill="#a6e22e" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="776.0" y="974.0" width="210.0" height="18.0" fill="#3e3d32"/>
+<text x="776.0" y="987.5" fill="#f8f8f2" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="986.0" y="974.0" width="126.0" height="18.0" fill="#3e3d32"/>
+<text x="776.0" y="1005.5" fill="#fd971f" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="776.0" y="1023.5" fill="#f8f8f2" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="776.0" y="1041.5" fill="#a6e22e" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="792.8" y="1041.5" fill="#f8f8f2" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="826.4" y="1041.5" fill="#f8f8f2" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="776.0" y="1059.5" fill="#999999" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="818.0" y="1059.5" fill="#ff5c8a" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="776.0" y="1077.5" fill="#e6db74" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="776.0" y="1082.0" width="134.4" height="18.0" fill="#49483e"/>
+<text x="776.0" y="1095.5" fill="#f8f8f2" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="910.4" y="1082.0" width="201.6" height="18.0" fill="#49483e"/>
+<rect x="16.0" y="1126.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="28.0" y="1152.0" fill="#d4d4d4" font-weight="bold">Rosé Pine-like</text>
+<text x="364.0" y="1152.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">rose-pine-like</text>
+<rect x="28.0" y="1160.0" width="16.8" height="18.0" fill="#26233a"/>
+<text x="28.0" y="1173.5" fill="#505050" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="44.8" y="1160.0" width="151.2" height="18.0" fill="#26233a"/>
+<text x="44.8" y="1173.5" fill="#e0def4" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="196.0" y="1160.0" width="168.0" height="18.0" fill="#26233a"/>
+<text x="28.0" y="1191.5" fill="#c4a7e7" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="28.0" y="1196.0" width="210.0" height="18.0" fill="#26233a"/>
+<text x="28.0" y="1209.5" fill="#e0def4" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="238.0" y="1196.0" width="126.0" height="18.0" fill="#26233a"/>
+<text x="28.0" y="1227.5" fill="#ebbcba" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="28.0" y="1245.5" fill="#e0def4" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="28.0" y="1263.5" fill="#9ccfd8" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="44.8" y="1263.5" fill="#e0def4" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="78.4" y="1263.5" fill="#e0def4" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="28.0" y="1281.5" fill="#999999" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="70.0" y="1281.5" fill="#eb6f92" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="28.0" y="1299.5" fill="#f6c177" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="28.0" y="1304.0" width="134.4" height="18.0" fill="#393552"/>
+<text x="28.0" y="1317.5" fill="#e0def4" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="162.4" y="1304.0" width="201.6" height="18.0" fill="#393552"/>
+<rect x="390.0" y="1126.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="402.0" y="1152.0" fill="#d4d4d4" font-weight="bold">Everforest-like</text>
+<text x="738.0" y="1152.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">everforest-like</text>
+<rect x="402.0" y="1160.0" width="16.8" height="18.0" fill="#343f44"/>
+<text x="402.0" y="1173.5" fill="#505050" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="418.8" y="1160.0" width="151.2" height="18.0" fill="#343f44"/>
+<text x="418.8" y="1173.5" fill="#d3c6aa" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="570.0" y="1160.0" width="168.0" height="18.0" fill="#343f44"/>
+<text x="402.0" y="1191.5" fill="#a7c080" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="402.0" y="1196.0" width="210.0" height="18.0" fill="#343f44"/>
+<text x="402.0" y="1209.5" fill="#d3c6aa" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="612.0" y="1196.0" width="126.0" height="18.0" fill="#343f44"/>
+<text x="402.0" y="1227.5" fill="#dbbc7f" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="402.0" y="1245.5" fill="#d3c6aa" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="402.0" y="1263.5" fill="#a7c080" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="418.8" y="1263.5" fill="#d3c6aa" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="452.4" y="1263.5" fill="#d3c6aa" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="402.0" y="1281.5" fill="#999999" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="444.0" y="1281.5" fill="#e67e80" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="402.0" y="1299.5" fill="#dbbc7f" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="402.0" y="1304.0" width="134.4" height="18.0" fill="#3d484d"/>
+<text x="402.0" y="1317.5" fill="#d3c6aa" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="536.4" y="1304.0" width="201.6" height="18.0" fill="#3d484d"/>
+<rect x="764.0" y="1126.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="776.0" y="1152.0" fill="#d4d4d4" font-weight="bold">Kanagawa-like</text>
+<text x="1112.0" y="1152.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">kanagawa-like</text>
+<rect x="776.0" y="1160.0" width="16.8" height="18.0" fill="#2a2a37"/>
+<text x="776.0" y="1173.5" fill="#505050" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="792.8" y="1160.0" width="151.2" height="18.0" fill="#2a2a37"/>
+<text x="792.8" y="1173.5" fill="#dcd7ba" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="944.0" y="1160.0" width="168.0" height="18.0" fill="#2a2a37"/>
+<text x="776.0" y="1191.5" fill="#7e9cd8" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="776.0" y="1196.0" width="210.0" height="18.0" fill="#2a2a37"/>
+<text x="776.0" y="1209.5" fill="#dcd7ba" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="986.0" y="1196.0" width="126.0" height="18.0" fill="#2a2a37"/>
+<text x="776.0" y="1227.5" fill="#ffa066" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="776.0" y="1245.5" fill="#dcd7ba" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="776.0" y="1263.5" fill="#98bb6c" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="792.8" y="1263.5" fill="#dcd7ba" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="826.4" y="1263.5" fill="#dcd7ba" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="776.0" y="1281.5" fill="#999999" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="818.0" y="1281.5" fill="#e46876" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="776.0" y="1299.5" fill="#e6c384" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="776.0" y="1304.0" width="134.4" height="18.0" fill="#363646"/>
+<text x="776.0" y="1317.5" fill="#dcd7ba" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="910.4" y="1304.0" width="201.6" height="18.0" fill="#363646"/>
+<rect x="16.0" y="1348.0" width="360.0" height="208.0" rx="8" fill="#ffffff" stroke="#8884"/>
+<text x="28.0" y="1374.0" fill="#1f2328" font-weight="bold">Catppuccin Latte-like</text>
+<text x="364.0" y="1374.0" fill="#1f2328" font-size="11" text-anchor="end" opacity="0.7">catppuccin-latte-like</text>
+<rect x="28.0" y="1382.0" width="16.8" height="18.0" fill="#e6e9ef"/>
+<text x="28.0" y="1395.5" fill="#afafaf" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="44.8" y="1382.0" width="151.2" height="18.0" fill="#e6e9ef"/>
+<text x="44.8" y="1395.5" fill="#3c3f58" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="196.0" y="1382.0" width="168.0" height="18.0" fill="#e6e9ef"/>
+<text x="28.0" y="1413.5" fill="#7130d9" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="28.0" y="1418.0" width="210.0" height="18.0" fill="#e6e9ef"/>
+<text x="28.0" y="1431.5" fill="#3c3f58" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="238.0" y="1418.0" width="126.0" height="18.0" fill="#e6e9ef"/>
+<text x="28.0" y="1449.5" fill="#b8460a" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="28.0" y="1467.5" fill="#3c3f58" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="28.0" y="1485.5" fill="#2f7a1f" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="44.8" y="1485.5" fill="#3c3f58" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="78.4" y="1485.5" fill="#3c3f58" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="28.0" y="1503.5" fill="#666666" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="70.0" y="1503.5" fill="#c20d35" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="28.0" y="1521.5" fill="#8f5809" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="28.0" y="1526.0" width="134.4" height="18.0" fill="#eff1f5"/>
+<text x="28.0" y="1539.5" fill="#3c3f58" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="162.4" y="1526.0" width="201.6" height="18.0" fill="#eff1f5"/>
+<rect x="390.0" y="1348.0" width="360.0" height="208.0" rx="8" fill="#ffffff" stroke="#8884"/>
+<text x="402.0" y="1374.0" fill="#1f2328" font-weight="bold">GitHub Light-like</text>
+<text x="738.0" y="1374.0" fill="#1f2328" font-size="11" text-anchor="end" opacity="0.7">github-light-like</text>
+<rect x="402.0" y="1382.0" width="16.8" height="18.0" fill="#ddf4ff"/>
+<text x="402.0" y="1395.5" fill="#afafaf" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="418.8" y="1382.0" width="151.2" height="18.0" fill="#ddf4ff"/>
+<text x="418.8" y="1395.5" fill="#1f2328" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="570.0" y="1382.0" width="168.0" height="18.0" fill="#ddf4ff"/>
+<text x="402.0" y="1413.5" fill="#0969da" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="402.0" y="1418.0" width="210.0" height="18.0" fill="#ddf4ff"/>
+<text x="402.0" y="1431.5" fill="#1f2328" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="612.0" y="1418.0" width="126.0" height="18.0" fill="#ddf4ff"/>
+<text x="402.0" y="1449.5" fill="#8250df" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="402.0" y="1467.5" fill="#1f2328" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="402.0" y="1485.5" fill="#1a7f37" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="418.8" y="1485.5" fill="#1f2328" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="452.4" y="1485.5" fill="#1f2328" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="402.0" y="1503.5" fill="#666666" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="444.0" y="1503.5" fill="#cf222e" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="402.0" y="1521.5" fill="#9a6700" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="402.0" y="1526.0" width="134.4" height="18.0" fill="#eef8ff"/>
+<text x="402.0" y="1539.5" fill="#1f2328" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="536.4" y="1526.0" width="201.6" height="18.0" fill="#eef8ff"/>
+<rect x="764.0" y="1348.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="776.0" y="1374.0" fill="#d4d4d4" font-weight="bold">High Contrast Dark</text>
+<text x="1112.0" y="1374.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">high-contrast-dark</text>
+<rect x="776.0" y="1382.0" width="16.8" height="18.0" fill="#0b2a4a"/>
+<text x="776.0" y="1395.5" fill="#505050" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="792.8" y="1382.0" width="151.2" height="18.0" fill="#0b2a4a"/>
+<text x="792.8" y="1395.5" fill="#ffffff" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="944.0" y="1382.0" width="168.0" height="18.0" fill="#0b2a4a"/>
+<text x="776.0" y="1413.5" fill="#ffd700" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="776.0" y="1418.0" width="210.0" height="18.0" fill="#0b2a4a"/>
+<text x="776.0" y="1431.5" fill="#ffffff" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="986.0" y="1418.0" width="126.0" height="18.0" fill="#0b2a4a"/>
+<text x="776.0" y="1449.5" fill="#00e5ff" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="776.0" y="1467.5" fill="#ffffff" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="776.0" y="1485.5" fill="#5cff5c" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="792.8" y="1485.5" fill="#ffffff" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="826.4" y="1485.5" fill="#ffffff" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="776.0" y="1503.5" fill="#999999" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="818.0" y="1503.5" fill="#ff7b7b" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="776.0" y="1521.5" fill="#ffd700" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="776.0" y="1526.0" width="134.4" height="18.0" fill="#123a63"/>
+<text x="776.0" y="1539.5" fill="#ffffff" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="910.4" y="1526.0" width="201.6" height="18.0" fill="#123a63"/>
+<rect x="16.0" y="1570.0" width="360.0" height="208.0" rx="8" fill="#ffffff" stroke="#8884"/>
+<text x="28.0" y="1596.0" fill="#1f2328" font-weight="bold">High Contrast Light</text>
+<text x="364.0" y="1596.0" fill="#1f2328" font-size="11" text-anchor="end" opacity="0.7">high-contrast-light</text>
+<rect x="28.0" y="1604.0" width="16.8" height="18.0" fill="#fff3b0"/>
+<text x="28.0" y="1617.5" fill="#afafaf" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="44.8" y="1604.0" width="151.2" height="18.0" fill="#fff3b0"/>
+<text x="44.8" y="1617.5" fill="#000000" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="196.0" y="1604.0" width="168.0" height="18.0" fill="#fff3b0"/>
+<text x="28.0" y="1635.5" fill="#0000b3" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="28.0" y="1640.0" width="210.0" height="18.0" fill="#fff3b0"/>
+<text x="28.0" y="1653.5" fill="#000000" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="238.0" y="1640.0" width="126.0" height="18.0" fill="#fff3b0"/>
+<text x="28.0" y="1671.5" fill="#8b0000" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="28.0" y="1689.5" fill="#000000" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="28.0" y="1707.5" fill="#006400" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="44.8" y="1707.5" fill="#000000" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="78.4" y="1707.5" fill="#000000" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="28.0" y="1725.5" fill="#666666" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="70.0" y="1725.5" fill="#b00000" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="28.0" y="1743.5" fill="#7a4a00" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="28.0" y="1748.0" width="134.4" height="18.0" fill="#ffe680"/>
+<text x="28.0" y="1761.5" fill="#000000" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="162.4" y="1748.0" width="201.6" height="18.0" fill="#ffe680"/>
+<rect x="390.0" y="1570.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="402.0" y="1596.0" fill="#d4d4d4" font-weight="bold">Colorblind Safe</text>
+<text x="738.0" y="1596.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">colorblind-safe</text>
+<rect x="402.0" y="1604.0" width="16.8" height="18.0" fill="#2b3a55"/>
+<text x="402.0" y="1617.5" fill="#505050" xml:space="preserve" textLength="16.8">&gt; </text>
+<rect x="418.8" y="1604.0" width="151.2" height="18.0" fill="#2b3a55"/>
+<text x="418.8" y="1617.5" fill="#ffffff" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<rect x="570.0" y="1604.0" width="168.0" height="18.0" fill="#2b3a55"/>
+<text x="402.0" y="1635.5" fill="#e69f00" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<rect x="402.0" y="1640.0" width="210.0" height="18.0" fill="#2b3a55"/>
+<text x="402.0" y="1653.5" fill="#ffffff" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<rect x="612.0" y="1640.0" width="126.0" height="18.0" fill="#2b3a55"/>
+<text x="402.0" y="1671.5" fill="#56b4e9" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="402.0" y="1689.5" fill="#ffffff" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="402.0" y="1707.5" fill="#3399ff" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="418.8" y="1707.5" fill="#ffffff" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="452.4" y="1707.5" fill="#ffffff" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="402.0" y="1725.5" fill="#999999" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="444.0" y="1725.5" fill="#ff6666" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="402.0" y="1743.5" fill="#ffcc00" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<rect x="402.0" y="1748.0" width="134.4" height="18.0" fill="#34476a"/>
+<text x="402.0" y="1761.5" fill="#ffffff" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+<rect x="536.4" y="1748.0" width="201.6" height="18.0" fill="#34476a"/>
+<rect x="764.0" y="1570.0" width="360.0" height="208.0" rx="8" fill="#1e1e1e" stroke="#8884"/>
+<text x="776.0" y="1596.0" fill="#d4d4d4" font-weight="bold">ANSI 16</text>
+<text x="1112.0" y="1596.0" fill="#d4d4d4" font-size="11" text-anchor="end" opacity="0.7">ansi-16</text>
+<text x="776.0" y="1617.5" fill="#d4d4d4" xml:space="preserve" textLength="16.8">&gt; </text>
+<text x="792.8" y="1617.5" fill="#d4d4d4" xml:space="preserve" textLength="151.2">Why can this race?</text>
+<text x="776.0" y="1635.5" fill="#d4d4d4" xml:space="preserve" textLength="25.2" font-weight="bold">You</text>
+<text x="776.0" y="1653.5" fill="#d4d4d4" xml:space="preserve" textLength="210.0"> Guard count with a mutex</text>
+<text x="776.0" y="1671.5" fill="#d4d4d4" xml:space="preserve" textLength="50.4" font-weight="bold">Claude</text>
+<text x="776.0" y="1689.5" fill="#d4d4d4" xml:space="preserve" textLength="235.2"> Done: count is now guarded.</text>
+<text x="776.0" y="1707.5" fill="#d4d4d4" xml:space="preserve" textLength="16.8">⏺ </text>
+<text x="792.8" y="1707.5" fill="#d4d4d4" xml:space="preserve" textLength="33.6" font-weight="bold">Bash</text>
+<text x="826.4" y="1707.5" fill="#d4d4d4" xml:space="preserve" textLength="126.0">(go test ./...)</text>
+<text x="776.0" y="1725.5" fill="#d4d4d4" xml:space="preserve" textLength="42.0">  ⎿  </text>
+<text x="818.0" y="1725.5" fill="#d4d4d4" xml:space="preserve" textLength="159.6">Error: build failed</text>
+<text x="776.0" y="1743.5" fill="#d4d4d4" xml:space="preserve" textLength="109.2">⚠ Context low</text>
+<text x="776.0" y="1761.5" fill="#d4d4d4" xml:space="preserve" textLength="134.4">&gt; hovered prompt</text>
+</svg>

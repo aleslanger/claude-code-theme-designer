@@ -1,0 +1,42 @@
+ Claude Code Theme Designer · prompt-contrast.json (preset)   — does not patch Claude Code                                        
+┌ Editor ────────────────────────────────────────────────┐┌ Preview ─────────────────────────────────────────────────────────────┐
+│ THEME                                                  ││ > Why can this code cause a race condition?                        ◂ │
+│   Name                          Prompt Contrast        ││                                                                      │
+│   File name                     prompt-contrast.json   ││ ⏺ Two goroutines write `count` without a lock, so                    │
+│   Base                          dark                   ││   updates can interleave and be lost.                                │
+│ USER MESSAGES                                          ││                                                                      │
+│ ▸ Background                    ██ #332b4f             ││ You                                                                  │
+│   Hover / expanded background   ██ #403660  [fs]       ││  Refactor the worker pool so that:                                 ◂ │
+│   Label "You"                   ██ #c4a7ff             ││  - jobs are cancelled on shutdown                                  ◂ │
+│   Label "Claude"                ██ · inherit           ││  - errors are collected and returned                               ◂ │
+│   ! shell entry background      ██ · inherit           ││                                                                      │
+│   # memory entry background     ██ · inherit           ││ Claude                                                               │
+│   Mouse selection background    ██ · inherit  [fs]     ││  Here is the updated Stop method:                                    │
+│   ✗ User message text color     unsupported            ││   ```go                                                              │
+│   ✗ Border / padding / font     unsupported            ││   func (p *Pool) Stop(ctx context.Context) error {                   │
+│ TEXT AND ACCENT COLORS                                 ││       close(p.jobs)                                                  │
+│   Claude                        ██ · inherit           ││       return p.waitCtx(ctx)                                          │
+│   Text                          ██ · inherit           ││   }                                                                  │
+│   Inverse text                  ██ · inherit           ││   ```                                                                │
+│   Inactive                      ██ · inherit           ││                                                                      │
+│   Subtle                        ██ · inherit           ││ ⏺ Bash(go test ./...)                                                │
+│   Suggestion                    ██ · inherit           ││   ⎿  ok   example.com/pool  0.412s                                   │
+│   Permission                    ██ · inherit           ││ ⏺ Update(pool.go)                                                    │
+│   Remember                      ██ · inherit           ││   ⎿  Updated pool.go with 1 addition and 1 removal                   │
+│ STATUS COLORS                                          ││   12 -   p.wg.Wait()                                                 │
+│   Success                       ██ · inherit           ││   12 +   return p.waitCtx(ctx)                                       │
+│   Error                         ██ · inherit           ││ ⏺ Bash(rm -rf /build)                                                │
+│   Warning                       ██ · inherit           ││   ⎿  Error: permission denied                                        │
+│   Merged                        ██ · inherit           ││                                                                      │
+│ INPUT BOX AND MODE INDICATORS                          ││ ⚠ Context low · 12% remaining before auto-compact                    │
+│   Prompt border                 ██ · inherit           ││                                                                      │
+│   Plan mode                     ██ · inherit           ││ ❯ Earlier prompt (selected)  approx.                               ◂ │
+│   Auto accept                   ██ · inherit           ││ > Hovered / expanded prompt  fullscreen only                         │
+│   Bash border                   ██ · inherit           ││ ! git status                                                         │
+│   Ide                           ██ · inherit           ││ # Always run gofmt before committing                                 │
+│   Fast mode                     ██ · inherit           ││                                                                      │
+└────────────────────────────────────────────────────────┘└──────────────────────────────────────────────────────────────────────┘
+ userMessageBackground — Background behind your messages in the transcript                                                        
+ source: https://code.claude.com/docs/en/terminal-config#create-a-custom-theme (Color token reference › Fullscreen mode)          
+ ✓ no contrast or compatibility warnings                                                                                          
+ ↑↓ move  ⏎ edit  # hex  i inherit  r/R/X reset  +/- adjust  b base  p presets  s save  I install  ? help  q quit                 

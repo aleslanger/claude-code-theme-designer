@@ -1,0 +1,5 @@
+/claude-theme
+/dist/
+*.test
+coverage.out
+claude-theme

@@ -1,0 +1,36 @@
+ Claude Code Theme Designer · prompt-contrast.json (preset)   — does not patch C
+┌ Editor ──────────────────────────────────────────────────────────────────────┐
+│ THEME                                                                        │
+│   Name                          Prompt Contrast                              │
+│   File name                     prompt-contrast.json                         │
+│   Base                          dark                                         │
+│ USER MESSAGES                                                                │
+│ ▸ Background                    ██ #332b4f                                   │
+│   Hover / expanded background   ██ #403660  [fs]                             │
+│   Label "You"                   ██ #c4a7ff                                   │
+│   Label "Claude"                ██ · inherit                                 │
+│   ! shell entry background      ██ · inherit                                 │
+│   # memory entry background     ██ · inherit                                 │
+│   Mouse selection background    ██ · inherit  [fs]                           │
+│   ✗ User message text color     unsupported                                  │
+└──────────────────────────────────────────────────────────────────────────────┘
+┌ Preview ─────────────────────────────────────────────────────────────────────┐
+│ > Why can this code cause a race condition?                                ◂ │
+│                                                                              │
+│ ⏺ Two goroutines write `count` without a lock, so                            │
+│   updates can interleave and be lost.                                        │
+│                                                                              │
+│ You                                                                          │
+│  Refactor the worker pool so that:                                         ◂ │
+│  - jobs are cancelled on shutdown                                          ◂ │
+│  - errors are collected and returned                                       ◂ │
+│                                                                              │
+│ Claude                                                                       │
+│  Here is the updated Stop method:                                            │
+│   ```go                                                                      │
+│   func (p *Pool) Stop(ctx context.Context) error {                           │
+└──────────────────────────────────────────────────────────────────────────────┘
+ userMessageBackground — Background behind your messages in the transcript      
+ source: https://code.claude.com/docs/en/terminal-config#create-a-custom-theme (
+ ✓ no contrast or compatibility warnings                                        
+ ↑↓ move  ⏎ edit  # hex  i inherit  r/R/X reset  +/- adjust  b base  p presets  

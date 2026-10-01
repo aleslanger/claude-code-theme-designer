@@ -1,0 +1,42 @@
+ Claude Code Theme Designer · prompt-contrast.json (preset)  ● unsaved   — does not patch Claude Code                             
+┌ 256-color palette · briefLabelYou ─────────────────────┐┌ Preview ─────────────────────────────────────────────────────────────┐
+│ ansi256(183)  ≈ #d7afff                                ││ > Why can this code cause a race condition?                          │
+│                                                        ││                                                                      │
+│                                                        ││ ⏺ Two goroutines write `count` without a lock, so                    │
+│                                                        ││   updates can interleave and be lost.                                │
+│                                                        ││                                                                      │
+│                                                        ││ You                                                                ◂ │
+│                                                        ││  Refactor the worker pool so that:                                   │
+│                                                        ││  - jobs are cancelled on shutdown                                    │
+│                                                        ││  - errors are collected and returned                                 │
+│                                                        ││                                                                      │
+│                                                        ││ Claude                                                               │
+│                                                        ││  Here is the updated Stop method:                                    │
+│                                                        ││   ```go                                                              │
+│               []                                       ││   func (p *Pool) Stop(ctx context.Context) error {                   │
+│                                                        ││       close(p.jobs)                                                  │
+│                                                        ││       return p.waitCtx(ctx)                                          │
+│                                                        ││   }                                                                  │
+│                                                        ││   ```                                                                │
+│                                                        ││                                                                      │
+│ 0-15 follow your terminal palette; 16-255 are fixed.   ││ ⏺ Bash(go test ./...)                                                │
+│ No color support detected: press # to type a value.    ││   ⎿  ok   example.com/pool  0.412s                                   │
+│                                                        ││ ⏺ Update(pool.go)                                                    │
+│                                                        ││   ⎿  Updated pool.go with 1 addition and 1 removal                   │
+│                                                        ││   12 -   p.wg.Wait()                                                 │
+│                                                        ││   12 +   return p.waitCtx(ctx)                                       │
+│                                                        ││ ⏺ Bash(rm -rf /build)                                                │
+│                                                        ││   ⎿  Error: permission denied                                        │
+│                                                        ││                                                                      │
+│                                                        ││ ⚠ Context low · 12% remaining before auto-compact                    │
+│                                                        ││                                                                      │
+│                                                        ││ ❯ Earlier prompt (selected)  approx.                                 │
+│                                                        ││ > Hovered / expanded prompt  fullscreen only                         │
+│                                                        ││ ! git status                                                         │
+│                                                        ││ # Always run gofmt before committing                                 │
+│                                                        ││                                                                      │
+└────────────────────────────────────────────────────────┘└──────────────────────────────────────────────────────────────────────┘
+ briefLabelYou — Color of the `You` label on your messages                                                                        
+ source: https://code.claude.com/docs/en/terminal-config#create-a-custom-theme (Color token reference › Usage meter and speaker la
+ ✓ no contrast or compatibility warnings                                                                                          
+ ←↑↓→ choose (live) · enter apply · # hex · r reset · i inherit · esc cancel                                                      
