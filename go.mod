@@ -1,13 +1,13 @@
 module github.com/aleslanger/claude-code-theme-designer
 
-go 1.24.4
+go 1.26.0
 
 require (
 	github.com/charmbracelet/bubbletea v1.3.10
 	github.com/charmbracelet/x/ansi v0.10.1
 	github.com/mattn/go-isatty v0.0.20
 	github.com/mattn/go-runewidth v0.0.30
-	golang.org/x/sys v0.36.0
+	golang.org/x/sys v0.48.0
 )
 
 require (
