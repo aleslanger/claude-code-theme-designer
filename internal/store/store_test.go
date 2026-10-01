@@ -42,40 +42,48 @@ func read(t *testing.T, path string) string {
 }
 
 func TestResolvePathsKeepsDesignerStateSeparate(t *testing.T) {
-	p, err := ResolvePaths("/home/u", func(string) string { return "" })
+	home := t.TempDir() // absolute on every OS
+	p, err := ResolvePaths(home, func(string) string { return "" })
 	if err != nil {
 		t.Fatal(err)
 	}
-	if p.ThemesDir != "/home/u/.claude/themes" || p.ConfigFile != "/home/u/.config/claude-theme-designer/config.json" {
+	if p.ThemesDir != filepath.Join(home, ".claude", "themes") ||
+		p.ConfigFile != filepath.Join(home, ".config", "claude-theme-designer", "config.json") {
 		t.Fatalf("unexpected paths %+v", p)
 	}
 	if strings.HasPrefix(p.BackupsDir, p.ThemesDir) || strings.HasPrefix(p.DraftsDir, p.ThemesDir) {
 		t.Fatal("backups and drafts must never live in the Claude Code theme directory")
 	}
+	if _, err := ResolvePaths("relative/home", func(string) string { return "" }); err == nil {
+		t.Fatal("relative home must be rejected")
+	}
 }
 
 func TestResolvePathsHonoursEnvironment(t *testing.T) {
-	env := map[string]string{"CLAUDE_CONFIG_DIR": "/opt/claude", "XDG_CONFIG_HOME": "/xdg"}
-	p, err := ResolvePaths("/home/u", func(k string) string { return env[k] })
+	root := t.TempDir()
+	claudeDir, xdg := filepath.Join(root, "claude"), filepath.Join(root, "xdg")
+	env := map[string]string{"CLAUDE_CONFIG_DIR": claudeDir, "XDG_CONFIG_HOME": xdg}
+	p, err := ResolvePaths(t.TempDir(), func(k string) string { return env[k] })
 	if err != nil {
 		t.Fatal(err)
 	}
-	if p.ThemesDir != "/opt/claude/themes" || p.ConfigDir != "/xdg/claude-theme-designer" {
+	if p.ThemesDir != filepath.Join(claudeDir, "themes") || p.ConfigDir != filepath.Join(xdg, "claude-theme-designer") {
 		t.Fatalf("env not honoured: %+v", p)
 	}
-	if _, err := ResolvePaths("/home/u", func(k string) string { return map[string]string{"CLAUDE_CONFIG_DIR": "rel"}[k] }); err == nil {
+	if _, err := ResolvePaths(t.TempDir(), func(k string) string { return map[string]string{"CLAUDE_CONFIG_DIR": "rel"}[k] }); err == nil {
 		t.Fatal("relative CLAUDE_CONFIG_DIR must be rejected")
 	}
 }
 
 func TestThemeFileRejectsTraversal(t *testing.T) {
-	for _, slug := range []string{"../../something", "..", "a/b", "", "x.json", "/abs"} {
-		if _, err := ThemeFile("/tmp/themes", slug); err == nil {
+	dir := filepath.Join(t.TempDir(), "themes")
+	for _, slug := range []string{"../../something", "..", "a/b", `a\b`, "", "x.json", "/abs", `C:\x`} {
+		if _, err := ThemeFile(dir, slug); err == nil {
 			t.Errorf("ThemeFile(%q) must fail", slug)
 		}
 	}
-	p, err := ThemeFile("/tmp/themes", "ok-name")
-	if err != nil || p != "/tmp/themes/ok-name.json" {
+	p, err := ThemeFile(dir, "ok-name")
+	if err != nil || p != filepath.Join(dir, "ok-name.json") {
 		t.Fatalf("got %q, %v", p, err)
 	}
 }

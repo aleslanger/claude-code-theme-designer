@@ -4,6 +4,7 @@ import (
 	"errors"
 	"os"
 	"path/filepath"
+	"runtime"
 	"strings"
 	"testing"
 )
@@ -150,8 +151,8 @@ func TestInstallAcceptsSymlinkedClaudeDir(t *testing.T) {
 }
 
 func TestInstallReportsReadOnlyThemesDir(t *testing.T) {
-	if os.Geteuid() == 0 {
-		t.Skip("root ignores permissions")
+	if runtime.GOOS == "windows" || os.Geteuid() == 0 {
+		t.Skip("chmod cannot make a directory read-only here (Windows ACLs / root)")
 	}
 	s := newStore(t)
 	if err := os.MkdirAll(s.Paths.ThemesDir, 0o700); err != nil {

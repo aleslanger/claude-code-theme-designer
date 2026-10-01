@@ -9,6 +9,7 @@ import (
 	"flag"
 	"fmt"
 	"io"
+	"path/filepath"
 	"strings"
 
 	"github.com/aleslanger/claude-code-theme-designer/internal/app"
@@ -228,9 +229,10 @@ func (r *runner) confirm(question string) (bool, error) {
 	return answer == "y" || answer == "yes", nil
 }
 
-// tilde shortens paths under HOME for display.
+// tilde shortens paths under HOME for display, using the OS separator.
 func (r *runner) tilde(path string) string {
-	if r.env.Home != "" && strings.HasPrefix(path, r.env.Home+"/") {
+	prefix := r.env.Home + string(filepath.Separator)
+	if r.env.Home != "" && strings.HasPrefix(path, prefix) {
 		return "~" + path[len(r.env.Home):]
 	}
 	return path

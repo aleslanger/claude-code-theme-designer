@@ -4,6 +4,7 @@ import (
 	"errors"
 	"os"
 	"path/filepath"
+	"runtime"
 	"syscall"
 	"testing"
 )
@@ -201,8 +202,8 @@ func TestConfigStatusStringsAndIgnoreUnsupported(t *testing.T) {
 }
 
 func TestOpenFailsOnUnreadableConfig(t *testing.T) {
-	if os.Geteuid() == 0 {
-		t.Skip("root ignores permissions")
+	if runtime.GOOS == "windows" || os.Geteuid() == 0 {
+		t.Skip("chmod cannot revoke read access here (Windows ACLs / root)")
 	}
 	s := newStore(t)
 	writeConfig(t, s, `{"version":1}`)

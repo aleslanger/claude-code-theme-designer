@@ -1,0 +1,6 @@
+# Keep LF everywhere: golden snapshots are compared byte-for-byte and shell
+# scripts must not get CRLF on Windows checkouts.
+* text=auto eol=lf
+*.golden text eol=lf
+*.svg text eol=lf
+*.sh text eol=lf

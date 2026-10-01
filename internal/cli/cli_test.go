@@ -81,7 +81,8 @@ func TestInstallIntoTemporaryHome(t *testing.T) {
 	if code != ExitOK {
 		t.Fatalf("exit %d", code)
 	}
-	for _, want := range []string{"Installed:\n~/.claude/themes/prompt-contrast.json", "Then select it in Claude Code using:\n/theme", "Restart Claude Code once"} {
+	installed := "Installed:\n" + filepath.Join("~", ".claude", "themes", "prompt-contrast.json")
+	for _, want := range []string{installed, "Then select it in Claude Code using:\n/theme", "Restart Claude Code once"} {
 		if !strings.Contains(out, want) {
 			t.Fatalf("output lacks %q:\n%s", want, out)
 		}
