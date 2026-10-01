@@ -73,7 +73,7 @@ theme safely.
 ### Install script (Linux, macOS)
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/aleslanger/claude-code-theme-designer/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/aleslanger/claude-code-theme-designer/master/install.sh | sh
 ```
 
 The script downloads the latest release for your OS and CPU, **verifies its
@@ -125,7 +125,7 @@ Check your version with `claude-theme version`.
 2. Remove the tool:
 
    ```sh
-   curl -fsSL https://raw.githubusercontent.com/aleslanger/claude-code-theme-designer/main/install.sh | sh -s -- --uninstall --purge
+   curl -fsSL https://raw.githubusercontent.com/aleslanger/claude-code-theme-designer/master/install.sh | sh -s -- --uninstall --purge
    # or: make uninstall    /    rm "$(command -v claude-theme)"
    ```
 
@@ -283,8 +283,7 @@ The full threat model is in [docs/THREAT_MODEL.md](docs/THREAT_MODEL.md).
   `doctor` without a shell and with a timeout. There is no network access at
   runtime. The install script verifies release checksums.
 
-Please report vulnerabilities privately through
-[GitHub security advisories](https://github.com/aleslanger/claude-code-theme-designer/security/advisories/new).
+Please report vulnerabilities privately; see [SECURITY.md](SECURITY.md).
 
 ## Compatibility
 

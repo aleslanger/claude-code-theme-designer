@@ -1,7 +1,7 @@
 #!/bin/sh
 # Install, update or uninstall claude-theme (Claude Code Theme Designer).
 #
-#   curl -fsSL https://raw.githubusercontent.com/aleslanger/claude-code-theme-designer/main/install.sh | sh
+#   curl -fsSL https://raw.githubusercontent.com/aleslanger/claude-code-theme-designer/master/install.sh | sh
 #
 # Options:
 #   --version <tag>   install a specific release (default: latest)
