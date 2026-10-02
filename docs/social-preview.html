@@ -1,0 +1,78 @@
+<!doctype html>
+<!--
+  Source of docs/social-preview.png (GitHub social preview, 1280x640).
+  Regenerate after docs/screenshot.svg changes:
+    chromium --headless --hide-scrollbars --window-size=1280,640 \
+      --screenshot=docs/social-preview.png docs/social-preview.html
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Claude Code Theme Designer</title>
+<style>
+  :root {
+    --bg: #141413;
+    --bg-glow: #2a211c;
+    --ink: #f5f4ef;
+    --muted: #a8a59b;
+    --accent: #d97757;
+  }
+  html, body {
+    margin: 0;
+    width: 1280px;
+    height: 640px;
+    overflow: hidden;
+    background: var(--bg);
+  }
+  .canvas {
+    position: relative;
+    width: 1280px;
+    height: 640px;
+    background: radial-gradient(circle at 85% 0%, var(--bg-glow), var(--bg) 60%);
+    font-family: "Noto Sans", "Cantarell", sans-serif;
+    color: var(--ink);
+  }
+  .text {
+    position: absolute;
+    left: 80px;
+    top: 52px;
+    right: 80px;
+  }
+  .kicker {
+    font: 600 20px/1 "DejaVu Sans Mono", monospace;
+    color: var(--accent);
+    letter-spacing: 0.04em;
+  }
+  h1 {
+    margin: 14px 0 0;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.05;
+  }
+  .tagline {
+    margin: 14px 0 0;
+    font-size: 26px;
+    color: var(--muted);
+  }
+  .shot {
+    position: absolute;
+    left: 80px;
+    top: 252px;
+    width: 1120px;
+    border-radius: 10px;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.08);
+  }
+</style>
+</head>
+<body>
+<div class="canvas">
+  <div class="text">
+    <div class="kicker">$ claude-theme</div>
+    <h1>Claude Code Theme Designer</h1>
+    <p class="tagline">Design, preview and install custom Claude Code themes, right in your terminal.</p>
+  </div>
+  <img class="shot" src="screenshot.svg" alt="">
+</div>
+</body>
+</html>
