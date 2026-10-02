@@ -5,7 +5,7 @@
 **Design, preview and install custom themes for [Claude Code](https://code.claude.com), right in your terminal.**
 
 [![CI](https://github.com/aleslanger/claude-code-theme-designer/actions/workflows/ci.yml/badge.svg)](https://github.com/aleslanger/claude-code-theme-designer/actions/workflows/ci.yml)
-[![Go](https://img.shields.io/badge/go-1.24%2B-00ADD8?logo=go)](go.mod)
+[![Go](https://img.shields.io/badge/go-1.26%2B-00ADD8?logo=go)](go.mod)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 <img src="docs/screenshot.svg" alt="claude-theme editor: token list on the left, live Claude Code transcript preview on the right" width="100%">
